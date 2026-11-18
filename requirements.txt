@@ -1,0 +1,10 @@
+# Python 3.13 (Google Colab). Versions pinned where they were recorded during the run.
+torch==2.14.1
+transformers==5.22.1
+scikit-learn==1.6.1
+pandas
+numpy
+pyarrow
+matplotlib
+huggingface_hub
+tqdm

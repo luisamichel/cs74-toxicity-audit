@@ -1,0 +1,15 @@
+# Raw and large data (re-created by 01_load_data.ipynb)
+data/raw/
+*.tar.gz
+data/processed/baseline_train.parquet
+data/processed/baseline_val.parquet
+
+# Per-model score cache (duplicates the combined files in scores/) and smoke-test leftovers
+scores/per_model/
+*__smoke*
+
+# Python / Jupyter / OS
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store

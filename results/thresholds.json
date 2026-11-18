@@ -1,0 +1,7 @@
+{
+  "Unbiased-RoBERTa": 0.4,
+  "Toxic-BERT": 0.18,
+  "S-NLP RoBERTa": 0.68,
+  "Cardiff-Offensive": 0.59,
+  "TF-IDF LR": 0.68
+}

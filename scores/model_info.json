@@ -1,0 +1,32 @@
+{
+  "models": {
+    "Unbiased-RoBERTa": {
+      "hf_id": "unitary/unbiased-toxic-roberta",
+      "label": "toxicity",
+      "activation": "sigmoid",
+      "revision": null
+    },
+    "Toxic-BERT": {
+      "hf_id": "unitary/toxic-bert",
+      "label": "toxic",
+      "activation": "sigmoid",
+      "revision": null
+    },
+    "S-NLP RoBERTa": {
+      "hf_id": "s-nlp/roberta_toxicity_classifier",
+      "label": "toxic",
+      "activation": "softmax",
+      "revision": null
+    },
+    "Cardiff-Offensive": {
+      "hf_id": "cardiffnlp/twitter-roberta-base-offensive",
+      "label": "offensive",
+      "activation": "softmax",
+      "revision": null
+    }
+  },
+  "max_len": 512,
+  "seed": 42,
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+}
